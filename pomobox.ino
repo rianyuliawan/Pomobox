@@ -19,20 +19,20 @@
 // 1. KONFIGURASI NETWORK & SERVER
 // ==========================================
 
-const char* ssid = "RianY";
-const char* password = "satudelapan";
+const char* ssid = "xxx";
+const char* password = "xxxxx";
 
-// PENTING: Ganti ini dengan IP Laptop kamu yang menjalankan app.py
+//  Ganti ini dengan IP Laptop kamu yang menjalankan app.py
 // Cara cek di Windows: buka cmd -> ketik ipconfig -> lihat IPv4 Address
-const char* server_host = "10.106.17.15";
+const char* server_host = "0.0.0.0.";
 const int server_port = 5000;
 const char* mqtt_server = "broker.hivemq.com";
 
 // API KEYS
-const char* assembly_api_key = "f5a9952176be4515970ebc07cb4a5dce";
-const char* gemini_api_key = "AIzaSyD6nytEhVZyIl7L0JczO7w5nxIAUj2yiBk";
-const char* eleven_api_key = "sk_738642018c0670678d541ee7837edd331c2095ee459fa49d";
-String eleven_voice_id = "k5eTzx1VYYlp6BE39Qrj";
+const char* assembly_api_key = "xxxxxx"; // Ganti dengan API Key kamu
+const char* gemini_api_key = "xxxxxx"; // Ganti dengan API Key kamu
+const char* eleven_api_key = "xxxxx"; // Ganti dengan API Key kamu
+String eleven_voice_id = "xxxxxx"; // Ganti dengan API Key kamu
 
 // ==========================================
 // 2. DEFINISI PIN
